@@ -10,9 +10,9 @@ function App() {
       <div className="App">
         <Nav />
         <Routes>
-          <Route path= "/" exact component={Home} />
-          <Route path= "/universities" component={Universities} />
-          <Route path= "/postalLookup" component={PostalLookup} />
+          <Route path= "/" element={<Home/>} />
+          <Route path= "/universities" element={<Universities/>} />
+          <Route path= "/postalLookup" element={<PostalLookup/>} />
         </Routes>
       </div>
     </Router>
